@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiniProfiler.Shared" Version="4.1.0" />
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreZhao.WebApi.Commons\AspNetCoreZhao.WebApi.Commons.csproj" />
+    <ProjectReference Include="..\AspNetCoreZhao.WebApi.Models\AspNetCoreZhao.WebApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>

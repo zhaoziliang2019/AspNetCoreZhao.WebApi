@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreZhao.WebApi.Models\AspNetCoreZhao.WebApi.Models.csproj" />
+    <ProjectReference Include="..\AspNetCoreZhao.WebApi.Repositorys\AspNetCoreZhao.WebApi.Repositorys.csproj" />
+  </ItemGroup>
+
+</Project>
