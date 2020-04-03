@@ -1,3 +1,4 @@
+using AspNetCoreZhao.WebApi.Commons;
 using AspNetCoreZhao.WebApi.Extensions;
 using AspNetCoreZhao.WebApi.Models;
 using Autofac;
@@ -18,12 +19,13 @@ namespace AspNetCoreZhao.WebApi
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public IWebHostEnvironment Env { get; }
+        public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration,IWebHostEnvironment env)
         {
             Configuration = configuration;
+            Env = env;
         }
-
-        public IConfiguration Configuration { get; }
 
         // 注意在CreateDefaultBuilder中，添加Autofac服务工厂
         public void ConfigureContainer(ContainerBuilder builder)
@@ -107,9 +109,11 @@ namespace AspNetCoreZhao.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSqlsugarSetup();
+            services.AddSingleton(new Appsettings(Env.ContentRootPath));//注入appsettings
+            services.AddSqlsugarSetup();//注入sqlsugar
 
 
+            services.AddAuthorizationSetup();
 
             services.AddCors(policy=>policy.AddPolicy("LimitRequests", policy =>
             {
@@ -153,9 +157,13 @@ namespace AspNetCoreZhao.WebApi
                     });
                 });
             }
+            // 返回错误码
+            app.UseStatusCodePages();//把错误码返回前台，比如是404
 
             app.UseRouting();
-
+            // 先开启认证
+            app.UseAuthentication();
+            // 然后是授权中间件
             app.UseAuthorization();
             app.UseCors("LimitRequests");
             app.UseEndpoints(endpoints =>

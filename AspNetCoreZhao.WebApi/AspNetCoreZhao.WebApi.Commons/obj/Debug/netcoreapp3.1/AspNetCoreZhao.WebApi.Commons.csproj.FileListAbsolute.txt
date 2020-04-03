@@ -1,0 +1,9 @@
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.deps.json
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.csproj.CoreCompileInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.AssemblyInfoInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.AssemblyInfo.cs
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Commons\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.csprojAssemblyReference.cache

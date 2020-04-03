@@ -1,20 +1,35 @@
-﻿using AspNetCoreZhao.WebApi.Commons.Helper;
+﻿using AspNetCoreZhao.WebApi.AuthHelper.Policys;
+using AspNetCoreZhao.WebApi.Commons.Helper;
+using AspNetCoreZhao.WebApi.Models;
+using AspNetCoreZhao.WebApi.Models.Models.ViewModel;
 using AspNetCoreZhao.WebApi.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace AspNetCoreZhao.WebApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/Login/")]
+    [AllowAnonymous]
     [ApiController]
     public class LoginController : ControllerBase
     {
         private readonly ISysUserInfoServices sysUserInfoServices;
+        private readonly PermissionRequirement requirement;
+        private readonly IRoleModulePermissionServices roleModulePermissionServices;
 
-        public LoginController(ISysUserInfoServices _sysUserInfoServices)
+        public LoginController(ISysUserInfoServices _sysUserInfoServices, PermissionRequirement _requirement, IRoleModulePermissionServices _roleModulePermissionServices)
         {
             sysUserInfoServices = _sysUserInfoServices;
+            requirement = _requirement;
+            roleModulePermissionServices = _roleModulePermissionServices;
         }
         /// <summary>
         /// 获取JWT的方法3：整个系统主要方法
@@ -40,8 +55,46 @@ namespace AspNetCoreZhao.WebApi.Controllers
 
             var user = await sysUserInfoServices.Query(d => d.SName == username && d.SPassWord == password);
             if (user.Count > 0)
-            { }
-             return new JsonResult("123");
+            {
+                var roleNames = await sysUserInfoServices.GetUserRoleNameStr(username,password);//获取该用户下所有角色名
+                //如果是基于用户的授权策略，这里要添加用户;如果是基于角色的授权策略，这里要添加角色
+                var claims = new List<Claim> {
+                    new Claim(ClaimTypes.Name, username),
+                    new Claim(JwtRegisteredClaimNames.Jti, user.FirstOrDefault().SID),
+                    new Claim(ClaimTypes.Expiration, DateTime.Now.AddSeconds(requirement.Expiration.TotalSeconds).ToString()) };
+                   claims.AddRange(roleNames.Split(',').Select(s => new Claim(ClaimTypes.Role, s)));
+                var data = await roleModulePermissionServices.RoleModuleMaps();
+                var list = (from item in data
+                            where item.IsDeleted == false
+                            orderby item.Id
+                            select new PermissionItem
+                            {
+                                Url = item.Module?.LinkUrl,
+                                Role = item.Role?.RName,
+                            }).ToList();
+
+                requirement.Permissions = list;
+
+                //用户标识
+                var identity = new ClaimsIdentity(JwtBearerDefaults.AuthenticationScheme);
+                identity.AddClaims(claims);
+
+                var token = JwtToken.BuildJwtToken(claims.ToArray(), requirement);
+                return new MessageModel<TokenInfoViewModel>()
+                {
+                    success = true,
+                    msg = "获取成功",
+                    response = token
+                };
+            }
+            else
+            {
+                return new MessageModel<TokenInfoViewModel>()
+                {
+                    success = false,
+                    msg = "认证失败",
+                };
+            }
         }
     }
 }

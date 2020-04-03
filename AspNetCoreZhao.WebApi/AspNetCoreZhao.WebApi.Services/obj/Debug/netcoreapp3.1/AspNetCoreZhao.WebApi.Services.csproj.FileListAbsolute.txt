@@ -1,0 +1,16 @@
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.deps.json
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.csprojAssemblyReference.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.csproj.CoreCompileInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.AssemblyInfoInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.AssemblyInfo.cs
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.csproj.CopyComplete
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Services\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Services.pdb

@@ -1,0 +1,14 @@
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.deps.json
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Commons.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\bin\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.csprojAssemblyReference.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.csproj.CoreCompileInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.AssemblyInfoInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.AssemblyInfo.cs
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.csproj.CopyComplete
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Repositorys\obj\Debug\netcoreapp3.1\AspNetCoreZhao.WebApi.Repositorys.pdb

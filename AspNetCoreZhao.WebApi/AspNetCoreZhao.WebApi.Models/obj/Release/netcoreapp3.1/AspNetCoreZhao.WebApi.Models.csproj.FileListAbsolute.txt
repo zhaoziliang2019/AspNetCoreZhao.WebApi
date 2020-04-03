@@ -1,0 +1,9 @@
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\bin\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.deps.json
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\bin\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\bin\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.csproj.CoreCompileInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.AssemblyInfoInputs.cache
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.AssemblyInfo.cs
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.dll
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.pdb
+D:\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi\AspNetCoreZhao.WebApi.Models\obj\Release\netcoreapp3.1\AspNetCoreZhao.WebApi.Models.csprojAssemblyReference.cache
